@@ -3069,6 +3069,66 @@ input, select, textarea {
 
 		}
 
+/* Features Section */
+
+		.features section {
+			padding: 1.75em 1.75em 0.1em 1.75em ;
+			border-radius: 5px;
+			margin: 1.5em 3em 1.5em 0;
+			width: calc(50% - 1.5em);
+		}
+
+			.features section:nth-child(2n) {
+				margin-right: 0;
+			}
+
+			.features section .image {
+				border-radius: 5px 5px 0 0;
+				display: block;
+				margin-bottom: 1.75em;
+				margin-left: -1.75em;
+				margin-top: -1.75em;
+				position: relative;
+				width: calc(100% + 3.5em);
+			}
+
+				.features section .image img {
+					border-radius: 5px 5px 0 0;
+					width: 100%;
+				}
+
+		@media screen and (max-width: 3000px) {
+
+			.features section {
+				margin: 1em 1em 1em auto;
+				width: calc(18% - 1em);
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.features section {
+				padding: 1.5em 1.5em 0.1em auto ;
+				margin: 0.875em 1.75em 0.875em 0;
+				width: calc(50% - 0.875em - 1px);
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			.features {
+				display: block;
+			}
+
+				.features section {
+					width: 100%;
+					margin: 0 0 2em 0 !important;
+				}
+
+		}
+
 /* Header */
 
 	#header {
