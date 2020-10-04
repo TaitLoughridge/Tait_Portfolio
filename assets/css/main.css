@@ -3083,7 +3083,7 @@ input, select, textarea {
 			} */
 
 
-		@media screen and (max-width: 3000px) {
+		@media screen and (max-width: 4000px) {
 
 			.features section {
 				margin: 1em 1em 1em auto;
